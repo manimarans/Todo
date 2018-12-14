@@ -25,7 +25,7 @@ export class AppComponent {
       console.log(task.name);
       this.tasks.push(task);
       this.name='';
-      console.log("Clicked End");
+      console.log("End");
     }
   }
 
