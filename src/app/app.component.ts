@@ -28,5 +28,10 @@ export class AppComponent {
       console.log("Click End");
     }
   }
+  selectedtask:Task;
+  onclicktask(task){
+    console.log(task);
+this.selectedtask = task;
+  }
 
 }

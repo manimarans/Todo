@@ -1,2 +1,2 @@
 <input [(ngModel)]="name" type="text" (keyup)="addTask($event)"/>
-<app-task *ngFor = "let task of tasks" [task]="task"></app-task>
+<app-task [class.selected]=" selectedtask===task" *ngFor = "let task of tasks" [task]="task" (click)="onclicktask(task)"></app-task>
